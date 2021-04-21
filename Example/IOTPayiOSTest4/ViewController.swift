@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import IOTPayiOSTest4
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+			let cardView = IOTCardInfoViewTripleLineNCardView(action: .addCard,
+																												style: .roundRect)
+			view.addSubview(cardView)
     }
 
     override func didReceiveMemoryWarning() {
