@@ -1,0 +1,16 @@
+PODS:
+  - IOTPayiOSTest4 (0.1.0)
+
+DEPENDENCIES:
+  - IOTPayiOSTest4 (from `../`)
+
+EXTERNAL SOURCES:
+  IOTPayiOSTest4:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOTPayiOSTest4: 83124abc936e8fbb4b568de40095033090b30f81
+
+PODFILE CHECKSUM: bfd41b3e47e23ae4bd03bf7c574a4feea49742af
+
+COCOAPODS: 1.8.4
