@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'IOTPayiOSTest4_Example' do
+  pod 'IOTPayiOSTest4', :path => '../'
+
+  target 'IOTPayiOSTest4_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
