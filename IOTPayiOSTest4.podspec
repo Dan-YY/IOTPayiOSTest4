@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOTPayiOSTest4'
-  s.version          = '0.1.0'
+  s.version          = '1.10.1'
   s.summary          = 'This is a fast setup card payment method.'
 	s.swift_version = '5.0'
 
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dan-YY' => 'dan@iotpay.ca' }
-  s.source           = { :git => 'https://github.com/Dan-YY/IOTPayiOSTest4.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Dan-YY/IOTPayiOSTest4.git', :tag => '1.10.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

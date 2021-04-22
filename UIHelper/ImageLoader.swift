@@ -12,7 +12,7 @@ class Loader {
 		let podBundle = Bundle(for: Loader.self)
 		if let url = podBundle.url(forResource: "Assets", withExtension: "bundle") {
 			let bundle = Bundle(url: url)
-			return UIImage(named: named, in: bundle, compatibleWith: nil)
+			return UIImage(named: named + ".png", in: bundle, compatibleWith: nil)
 		}
 		return UIImage()
 	}
