@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IOTPayiOSTest4'
-  s.version          = '1.10.1'
+  s.version          = '1.10.2'
   s.summary          = 'This is a fast setup card payment method.'
 	s.swift_version = '5.0'
 
